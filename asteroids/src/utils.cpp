@@ -23,8 +23,7 @@ float map(float value, float lower, float upper, float min, float max)
 /* random number between values, not including last
     randrange(0,360) produces numbers 0..359
 */
-int randrange(int from, int to)
-{
+int randrange(int from, int to) {
     int range = to-from;
     return from + rand()%range;
 }
